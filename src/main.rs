@@ -30,7 +30,7 @@ fn main() {
 /// let (command, args) = split_input(&String::new("command first_arg second_arg"));
 /// ```
 ///
-fn split_input(input: &String) -> (&str, std::str::SplitWhitespace) {
+fn split_input(input: &str) -> (&str, std::str::SplitWhitespace) {
     let mut parts = input.trim().split_whitespace();
     (parts.next().unwrap_or_else(|| ""), parts)
 }
