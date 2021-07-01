@@ -1,1 +1,1 @@
-# rust-shell
+# rusty
